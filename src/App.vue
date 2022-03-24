@@ -1,28 +1,52 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+  <v-app>
+    <v-app-bar app color="primary" dark>
+      <div class="d-flex align-center">
+        <v-img
+          alt="Vuetify Logo"
+          class="shrink mr-2"
+          contain
+          :src="require('./assets/doge.png')"
+          transition="scale-transition"
+          width="40"
+        />
+
+        <span class="font-weight-medium">Jiang Junhui</span>
+      </div>
+
+      <v-spacer></v-spacer>
+
+      <v-btn
+        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1"
+        target="_blank"
+        text
+      >
+        <span class="mr-2">Hehe</span>
+        <v-icon>mdi-open-in-new</v-icon>
+      </v-btn>
+    </v-app-bar>
+
+    <v-main>
+      <HelloWorld />
+      <accordion-body />
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import AccordionBody from "./components/AccordionBody.vue";
+import HelloWorld from "./components/HelloWorld";
 
 export default {
   name: "App",
+
   components: {
     HelloWorld,
+    AccordionBody,
   },
+
+  data: () => ({
+    //
+  }),
 };
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
