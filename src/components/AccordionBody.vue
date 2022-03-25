@@ -158,23 +158,16 @@
         <v-expansion-panel-content>
           <v-container style="width: 80%"
             ><v-row align="center" justify="center" align-content-center
-              ><h3>
+              ><h3 style="text-align: center">
                 "Mathorcup" University Mathematical Modeling Challenge(Apr 2021,
                 Hangzhou, China)
-              </h3></v-row
-            ><v-row align="center" justify="center"
-              ><h4>
+              </h3>
+              <p style="text-align: center">
                 Optimizing heat dissipation of data center based on mathematical
-                models
-              </h4></v-row
-            >
-            <v-row align="center" justify="center"><h4>Third Prize</h4></v-row>
-            <v-row align="center" justify="center"><h4>Team Leader</h4></v-row>
-            <v-row align="center" justify="center"
-              ><h4>
-                Sponsored by the Chinese Society of Optimization, Overall
-                Planning and Economical Mathematics
-              </h4></v-row
+                models<br />Third Prize<br />
+                Team Leader<br />Sponsored by the Chinese Society of
+                Optimization, Overall Planning and Economical Mathematics
+              </p></v-row
             >
             <v-row align="center" justify="center"
               ><v-col
@@ -195,21 +188,16 @@
                   :src="require('../assets/mathor2.png')"
                   width="100%" /></v-col
             ></v-row>
-            <v-row align="center" justify="center"
-              ><h3>
+            <v-row align="center" justify="center" align-content-center
+              ><h3 style="text-align: center">
                 ”Certification Cup” Mathematics China Mathematical Modeling
                 Network Challenge
-              </h3></v-row
-            ><v-row align="center" justify="center"
-              ><h4>Medical image registration</h4></v-row
-            >
-            <v-row align="center" justify="center"><h4>Second Prize</h4></v-row>
-            <v-row align="center" justify="center"><h4>Member</h4></v-row>
-            <v-row align="center" justify="center"
-              ><h4>
-                Sponsored by the Inner Mongolia Mathematical Society, Math Forum
-                in China
-              </h4></v-row
+              </h3>
+              <p style="text-align: center">
+                Medical image registration<br />Second Prize<br />
+                Member<br />Sponsored by the Inner Mongolia Mathematical
+                Society, Math Forum in China
+              </p></v-row
             >
             <v-row align="center" justify="center"
               ><v-col
@@ -223,18 +211,15 @@
                   :src="require('../assets/camcm1.png')"
                   width="100%" /></v-col
             ></v-row>
-            <v-row align="center" justify="center"
-              ><h3>Global Management Challenge(in China)</h3></v-row
-            >
-            <v-row align="center" justify="center"
-              ><h4>National Third Prize</h4></v-row
-            >
-            <v-row align="center" justify="center"><h4>Team Leader</h4></v-row>
-            <v-row align="center" justify="center"
-              ><h4>
-                Sponsored by the European Foundation for Management
-                Development(EFMD)
-              </h4></v-row
+            <v-row align="center" justify="center" align-content-center
+              ><h3 style="text-align: center">
+                Global Management Challenge(in China)
+              </h3>
+              <p style="text-align: center">
+                National Third Prize<br />
+                Team Leader<br />Sponsored by the European Foundation for
+                Management Development(EFMD)
+              </p></v-row
             >
             <v-row align="center" justify="center"
               ><v-col
@@ -310,10 +295,14 @@
         <v-expansion-panel-content>
           <v-container style="width: 80%"
             ><v-row align="center" justify="center"
-              ><h2>4th CROSS-STRAIT YOUTH MAKER COMPETITION 2019</h2></v-row
+              ><h2 style="text-align: center">
+                4th CROSS-STRAIT YOUTH MAKER COMPETITION 2019
+              </h2></v-row
             ><v-row align="center" justify="center"
-              ><p>Aug 2019 Shanghai, China</p>
-              <p>Volunteer at Tongji University</p></v-row
+              ><p style="text-align: center">
+                Aug 2019 Shanghai, China<br />
+                Volunteer at Tongji University
+              </p></v-row
             >
             <v-row align="center" justify="center"
               ><v-col
@@ -322,13 +311,15 @@
                   width="100%" /></v-col
             ></v-row>
             <v-row align="center" justify="center"
-              ><h2>
+              ><h2 style="text-align: center">
                 Faculty of Mechanical Engineering and Automation, Zhejiang
                 Sci-Tech University
               </h2></v-row
             ><v-row align="center" justify="center"
-              ><p>(Jun 2019-Jun 2020 Hangzhou, China)</p>
-              <p>Chairman at Learning Counseling Center</p></v-row
+              ><p style="text-align: center">
+                (Jun 2019-Jun 2020 Hangzhou, China)<br />
+                Chairman at Learning Counseling Center
+              </p></v-row
             >
             <v-row align="center" justify="center"
               ><v-col
