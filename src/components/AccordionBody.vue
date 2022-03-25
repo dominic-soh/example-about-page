@@ -1,9 +1,9 @@
 <template>
   <v-container>
-    <v-expansion-panels focusable>
+    <v-expansion-panels hover>
       <v-expansion-panel>
         <v-expansion-panel-header>Profile</v-expansion-panel-header>
-        <v-expansion-panel-content>
+        <v-expansion-panel-content eager>
           <h2>Research Interests</h2>
           <p class="font-weight-regular">
             Engineering Management, Operation Research, Mechanical Design
@@ -25,7 +25,7 @@
         <v-expansion-panel-header>
           Professional Experience
         </v-expansion-panel-header>
-        <v-expansion-panel-content>
+        <v-expansion-panel-content eager>
           <h3>Positions held:</h3>
           <p class="font-weight-regular">
             Research Assistant<br />
@@ -66,7 +66,7 @@
         <v-expansion-panel-header
           >Research Experiences</v-expansion-panel-header
         >
-        <v-expansion-panel-content>
+        <v-expansion-panel-content eager>
           <v-container style="width: 80%"
             ><v-row align="center" justify="center"
               ><h3>
@@ -155,7 +155,7 @@
         <v-expansion-panel-header
           >Award-winning Experience</v-expansion-panel-header
         >
-        <v-expansion-panel-content>
+        <v-expansion-panel-content eager>
           <v-container style="width: 80%"
             ><v-row align="center" justify="center" align-content-center
               ><h3 style="text-align: center">
@@ -238,7 +238,7 @@
       </v-expansion-panel>
       <v-expansion-panel>
         <v-expansion-panel-header>Publications</v-expansion-panel-header>
-        <v-expansion-panel-content>
+        <v-expansion-panel-content eager>
           <v-container style="width: 80%"
             ><v-row align="center" justify="center"
               ><h2>Accepted Paper</h2></v-row
@@ -292,7 +292,7 @@
         <v-expansion-panel-header
           >Extracurricular Experience</v-expansion-panel-header
         >
-        <v-expansion-panel-content>
+        <v-expansion-panel-content eager>
           <v-container style="width: 80%"
             ><v-row align="center" justify="center"
               ><h2 style="text-align: center">
@@ -332,7 +332,7 @@
       </v-expansion-panel>
       <v-expansion-panel>
         <v-expansion-panel-header>Experience Abroad</v-expansion-panel-header>
-        <v-expansion-panel-content>
+        <v-expansion-panel-content eager>
           <v-container style="width: 80%"
             ><v-row align="center" justify="center"
               ><h2>Student Exchange program</h2></v-row
