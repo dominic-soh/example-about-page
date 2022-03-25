@@ -1,5 +1,5 @@
 # about-me
-
+A personal page for a friend
 ## Project setup
 ```
 yarn install
