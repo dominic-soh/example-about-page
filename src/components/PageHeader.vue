@@ -1,13 +1,13 @@
 <template>
-  <v-container>
+  <v-container style="width: 80%">
     <v-row>
-      <v-col>
+      <v-col align="right">
         <v-img
-          :src="require('../assets/jiang.jpg')"
+          :src="require('../assets/jiangchill.jpg')"
           class="my-3"
           contain
-          height="500"
-          width="500"
+          height="300"
+          width="300"
         />
       </v-col>
 
