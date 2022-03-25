@@ -3,10 +3,11 @@
     <v-row>
       <v-col>
         <v-img
-          :src="require('../assets/biggo.png')"
+          :src="require('../assets/jiang.jpg')"
           class="my-3"
           contain
-          height="200"
+          height="500"
+          width="500"
         />
       </v-col>
 

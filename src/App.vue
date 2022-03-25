@@ -27,7 +27,7 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld />
+      <PageHeader />
       <accordion-body />
     </v-main>
   </v-app>
@@ -35,13 +35,13 @@
 
 <script>
 import AccordionBody from "./components/AccordionBody.vue";
-import HelloWorld from "./components/HelloWorld";
+import PageHeader from "./components/PageHeader";
 
 export default {
   name: "App",
 
   components: {
-    HelloWorld,
+    PageHeader,
     AccordionBody,
   },
 
